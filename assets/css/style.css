@@ -1028,17 +1028,19 @@ justify-content: center;
     padding:24px 0px;
 }
 .counter-body h5 {
-    font-size:14px;
+    font-size:16px;
+    font-weight: bold;
 
 }
 .counter-body p {
     margin-bottom: 16px;
+    color: #ddd;
 }
 .counter-box {
     width: 80%;
     margin: auto;
     margin-bottom: 8px;
-    background-color: #0c0c0c;
+    background-color: #1f1f1f;
     padding: 12px;
     border-radius: 16px;
 }
@@ -1058,7 +1060,7 @@ justify-content: center;
 .skill-list::after{
     content: "";
     position: absolute;
-    width: 15%;
+    width: 25%;
     height: 100%;
     left: 0;
     top: 0;
@@ -1137,14 +1139,14 @@ justify-content: center;
 .article-sliders .owl-nav .owl-prev,
 .project-sliders .owl-nav .owl-prev {
     position: absolute;
-    right: -10%;
+    right: -5%;
    top: 30%;
 }
 
 .article-sliders .owl-nav .owl-next,
 .project-sliders .owl-nav .owl-next {
     position: absolute;
-    left: -10%;
+    left: -5%;
     top:30%;
 }
 .project-sliders .card .card-title {
@@ -1191,9 +1193,6 @@ justify-content: center;
     padding: 12px;
     text-align: right;
 }
-.accordion-button:not(.collapsed){
-    padding: 0;
-}
 /* ------- */
 /* owl carosle */
 .owl-stage-outer{
@@ -1213,7 +1212,7 @@ justify-content: center;
     padding: 10px;
 }
 .site-footer .title{
-    font-size: var(--s-title-box);
+    font-size: var(--s-title);
 }
 .site-footer p{
     font-size: 12px;
@@ -1237,7 +1236,7 @@ flex-direction: column;
     margin-top: 32px;
 }
 .site-footer{
-    margin-bottom:180px;
+    margin-bottom:80px;
 }
 /* ------- */
 }
