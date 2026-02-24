@@ -1,6 +1,6 @@
 @font-face {
     font-family: dana;
-    src: url(../fonts/Dana-Medium.woff2);
+    src: url(../fonts/dana-Medium.woff2);
 }
 
 :root {
@@ -57,7 +57,7 @@ body {
 }
 
 .navbar {
-    background-image: url(../images/Subtract\ \(1\).png);
+    background-image: url(../images/subtract-1.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -505,7 +505,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url(../images/Subtract\ \(2\).png);
+    background-image: url(../images/subtract-2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -737,7 +737,7 @@ body {
 .section-testimonials .row {
     align-items: center;
     height: 400px;
-    background-image: url(../images/MacBook\ Air\ -\ 1\ \(1\).png);
+    background-image: url(../images/macbook-1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
